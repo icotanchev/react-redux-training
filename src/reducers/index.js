@@ -1,10 +1,12 @@
 import { combineReducers } from 'redux';
 
 import paintingsCategoriesList from './paintingsCategoriesList';
+import furnituresCategoriesList from './furnituresCategoriesList';
 
 
 const rootReducer = combineReducers({
-    paintingsCategoriesList
+    paintingsCategoriesList,
+    furnituresCategoriesList
 });
 
 export default rootReducer;
